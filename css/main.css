@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 12px;
+}
+
+#mainContainer {
+    width: 1000px;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+header {
+    padding-top: 1em;
+}
+
+header a {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-size: 3em;
+}
+
+#main-nav {
+    float: right;
+    display: block;
+    padding-top: 1em;
+}
+
+#main-nav ul {
+    display: block;
+}
+
+#main-nav ul li {
+    display: inline;
+    padding-left: 1em;
+    font-size: .5em;
+}
+
+#main-nav ul li:hover {
+    text-decoration: underline;
+}
