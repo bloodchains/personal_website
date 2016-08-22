@@ -1,24 +1,45 @@
 body {
-    width: 100%;
     font-family: 'Hind Guntur', sans-serif;
     font-size: 12px;
+    color: #252525;
 }
 
-#mainContainer {
+.mainContainer {
     width: 1000px;
-    margin: auto;
+    margin: 0 auto;
+}
+
+@media (max-width: 1023px) {
+    .mainContainer {
+        width: 800px;
+    }
+}
+
+@media (max-width: 820px) {
+    .mainContainer {
+        width: 640px;
+    }
+}
+
+.header {
+    padding-top: 1em;
     border-bottom: 1px solid black;
 }
 
-header {
-    padding-top: 1em;
-}
-
-header a {
+.header a {
     text-align: left;
     text-decoration: none;
-    color: black;
+    color: inherit;
     font-size: 3em;
+}
+
+.footer {
+    /*border-top: 1px solid black;*/
+    position: absolute;
+    width: inherit;
+    bottom: 0;
+    text-align: center;
+    background-color: beige;
 }
 
 #main-nav {
@@ -33,10 +54,15 @@ header a {
 
 #main-nav ul li {
     display: inline;
-    padding-left: 1em;
+    padding-left: 2em;
     font-size: .5em;
 }
 
 #main-nav ul li:hover {
     text-decoration: underline;
+}
+
+.index {
+    font-size: 1.8em;
+    text-align: center;
 }

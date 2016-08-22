@@ -11,9 +11,23 @@
     </head>
 
     <body>
-        <div id="mainContainer">
-            <?php include 'templates/header.html' ?>
+
+        <div class="mainContainer">
+
+            <div class="header">
+                <?php include 'templates/header.php' ?>
+            </div>
+
+            <section class="index">
+                <p>Welcome to my website!</p>
+            </section>
+
+            <div class="footer">
+                <?php include 'templates/footer.php' ?>
+            </div>
+
         </div>
+
     </body>
 
 </html>
